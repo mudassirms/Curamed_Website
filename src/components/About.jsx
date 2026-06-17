@@ -31,7 +31,7 @@ export default function About() {
         <SectionHeading
           eyebrow="About Curamed Services India"
           title={<>Shifting the Clinical Research <span className="gradient-text">Paradigm</span></>}
-          subtitle="Destination Pharmagens Healthcare Solutions (CSI) is a leading Site Management Organization bridging the gap between healthcare providers, pharmaceutical companies, and patients across India — established July 2023."
+          subtitle="Curamed Services India (CSI) is a leading Site Management Organization bridging the gap between healthcare providers, pharmaceutical companies, and patients across India — established July 2023."
         />
 
         <div className="mt-14 grid md:grid-cols-2 gap-5">

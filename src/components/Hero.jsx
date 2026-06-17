@@ -58,7 +58,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.15 }}
             className="body-lg mt-6 max-w-xl"
           >
-            Destination Pharmagens Healthcare Solutions (CSI) is India's leading Site
+            Curamed Services India (CSI) is India's leading Site
             Management Organization — bridging pharmaceutical companies, healthcare
             providers, and patients to deliver breakthrough treatment options.
           </motion.p>
