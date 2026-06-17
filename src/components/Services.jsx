@@ -1,26 +1,26 @@
 import {
-  Stethoscope,
-  HeartHandshake,
-  Accessibility,
-  Activity,
-  UserRound,
   FlaskConical,
-  PhoneCall,
-  Wrench,
+  Microscope,
+  Users,
+  ClipboardList,
+  Activity,
+  Stethoscope,
+  BookOpen,
+  Network,
   ArrowUpRight,
 } from 'lucide-react'
 import Reveal from './ui/Reveal.jsx'
 import SectionHeading from './ui/SectionHeading.jsx'
 
 const SERVICES = [
-  { icon: Stethoscope, title: 'Home Nursing Care', desc: 'Professional nursing support delivered in the comfort of your home.' },
-  { icon: HeartHandshake, title: 'Patient Care Services', desc: 'Dedicated caregivers providing attentive day-to-day patient assistance.' },
-  { icon: Accessibility, title: 'Elderly Care', desc: 'Compassionate senior citizen support with dignity and warmth.' },
-  { icon: Activity, title: 'Physiotherapy At Home', desc: 'Personalized recovery and rehabilitation, on your schedule.' },
-  { icon: UserRound, title: 'Medical Attendant Services', desc: 'Trained healthcare attendants for round-the-clock assistance.' },
-  { icon: FlaskConical, title: 'Home Diagnostic Support', desc: 'Convenient healthcare assistance and sample coordination at home.' },
-  { icon: PhoneCall, title: 'Doctor Consultation Support', desc: 'Professional healthcare guidance whenever you need it.' },
-  { icon: Wrench, title: 'Medical Equipment Assistance', desc: 'Support for setting up and managing essential medical equipment.' },
+  { icon: FlaskConical, title: 'Early Phase Solutions', desc: 'Specialized support for Phase I and early-stage clinical trials with precision and compliance.' },
+  { icon: Microscope, title: 'Clinical Development', desc: 'End-to-end clinical development services ensuring efficiency, quality, and regulatory adherence.' },
+  { icon: Users, title: 'Patient Recruitment & Retention', desc: 'Patient-centric strategies to build diverse trial populations and maintain high retention rates.' },
+  { icon: ClipboardList, title: 'Site Management', desc: 'Comprehensive site management services that bridge sponsors, CROs, and investigative sites.' },
+  { icon: Activity, title: 'Clinical Trial Liaisons', desc: 'PharmD and medically qualified liaisons providing expert on-site and remote trial support.' },
+  { icon: Stethoscope, title: 'Sponsor & CRO Partnerships', desc: 'Strategic partnerships with pharmaceutical companies and CROs for seamless trial execution.' },
+  { icon: BookOpen, title: 'Patient Education Programs', desc: 'Tailored education initiatives that empower patients and improve informed consent quality.' },
+  { icon: Network, title: 'Healthcare Provider Network', desc: 'A growing network of medical professionals across India ensuring wide trial reach.' },
 ]
 
 function scrollTo(id) {
@@ -35,8 +35,9 @@ export default function Services() {
       <div className="container-xl">
         <SectionHeading
           eyebrow="What We Offer"
-          title="Comprehensive Healthcare Services"
-          subtitle="Everything you need for professional healthcare support, under one trusted brand."
+          title="Integrated Clinical Trial Solutions"
+          title={<>Integrated <span className="gradient-text">Clinical Trial Solutions</span></>}
+          subtitle="Everything you need for world-class clinical research operations, under one trusted SMO."
         />
 
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">

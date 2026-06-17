@@ -6,39 +6,39 @@ import SectionHeading from './ui/SectionHeading.jsx'
 
 const TESTIMONIALS = [
   {
-    name: 'Anita Deshmukh',
-    relation: 'Daughter of patient, Pune',
-    service: 'Elderly Care',
-    quote: 'Curamed made it possible for my father to recover at home with dignity. The caregiver was patient, skilled, and genuinely caring every single day.',
-    avatar: 'https://i.pravatar.cc/120?img=47',
-  },
-  {
-    name: 'Rajesh Verma',
-    relation: 'Patient, Bengaluru',
-    service: 'Post-Surgery Recovery',
-    quote: 'After my knee surgery, the physiotherapist who visited home helped me walk again with confidence. Professional, punctual, and encouraging throughout.',
+    name: 'Dr. Ramesh Kulkarni',
+    relation: 'Principal Investigator, Pune',
+    service: 'Site Management',
+    quote: 'Curamed Services India made our trial operations seamless. Their coordinators are thorough, proactive, and kept us fully compliant at every step.',
     avatar: 'https://i.pravatar.cc/120?img=12',
   },
   {
-    name: 'Sunita Iyer',
-    relation: 'Wife of patient, Mumbai',
-    service: 'Home Nursing Care',
-    quote: 'The nurse assigned to us understood my husband\'s condition deeply. Communication was clear, and we always felt supported, even at odd hours.',
+    name: 'Priya Mehta',
+    relation: 'Clinical Operations Head, Mumbai',
+    service: 'Patient Recruitment',
+    quote: 'The patient recruitment team at Curamed Services India exceeded our enrolment targets two months ahead of schedule. Their community reach is unmatched.',
+    avatar: 'https://i.pravatar.cc/120?img=47',
+  },
+  {
+    name: 'Arun Nair',
+    relation: 'CRO Partner, Bengaluru',
+    service: 'Clinical Trial Liaison',
+    quote: 'Working with Curamed Services India\'s PharmD liaisons elevated the quality of our site communications and dramatically reduced protocol deviations.',
+    avatar: 'https://i.pravatar.cc/120?img=51',
+  },
+  {
+    name: 'Dr. Sneha Joshi',
+    relation: 'Oncologist, Hyderabad',
+    service: 'Oncology Trial Support',
+    quote: 'Curamed Services India understood the nuances of oncology trials. Their patient-centric approach meant participants felt informed and supported throughout.',
     avatar: 'https://i.pravatar.cc/120?img=32',
   },
   {
-    name: 'Farah Khan',
-    relation: 'New mother, Hyderabad',
-    service: 'Mother & Baby Care',
-    quote: 'The postnatal care team guided me through recovery and newborn care with so much warmth. I felt confident as a first-time mother because of them.',
+    name: 'Vikram Sharma',
+    relation: 'Pharma Sponsor, Delhi',
+    service: 'Early Phase Solutions',
+    quote: 'From feasibility to first patient in, Curamed Services India delivered with precision. Their 85% on-time completion rate is a real competitive advantage.',
     avatar: 'https://i.pravatar.cc/120?img=45',
-  },
-  {
-    name: 'Mohan Pillai',
-    relation: 'Son of patient, Chennai',
-    service: 'Long-Term Patient Care',
-    quote: 'Coordinating long-term care for my mother used to feel overwhelming. Curamed\'s team brought structure, reliability, and genuine compassion to it.',
-    avatar: 'https://i.pravatar.cc/120?img=51',
   },
 ]
 
@@ -61,8 +61,8 @@ export default function Testimonials() {
       <div className="container-xl">
         <SectionHeading
           eyebrow="Real Stories"
-          title={<>Trusted By <span className="gradient-text">Patients & Families</span></>}
-          subtitle="Care experiences shared by the people we've had the privilege to support."
+          title={<>Trusted By <span className="gradient-text">Sponsors, CROs & Patients</span></>}
+          subtitle="Experiences shared by the partners and patients we've had the privilege to work with."
         />
 
         <Reveal direction="scale" className="max-w-3xl mx-auto">

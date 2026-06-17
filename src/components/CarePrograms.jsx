@@ -1,25 +1,25 @@
 import {
-  Cross,
-  Sparkles,
+  FlaskConical,
+  Users,
   Activity,
-  Baby,
-  Dumbbell,
-  Hourglass,
-  Home,
-  Handshake,
+  HeartHandshake,
+  Stethoscope,
+  BookOpen,
+  BarChart2,
+  ShieldCheck,
 } from 'lucide-react'
 import Reveal from './ui/Reveal.jsx'
 import SectionHeading from './ui/SectionHeading.jsx'
 
 const PROGRAMS = [
-  { icon: Cross, title: 'Post-Surgery Recovery Care', desc: 'Skilled support through every stage of healing.' },
-  { icon: Sparkles, title: 'Elderly Wellness Care', desc: 'Daily wellness, mobility & companionship for seniors.' },
-  { icon: Activity, title: 'Chronic Disease Support', desc: 'Ongoing management for diabetes, cardiac & more.' },
-  { icon: Baby, title: 'Mother & Baby Care', desc: 'Postnatal support for new mothers and infants.' },
-  { icon: Dumbbell, title: 'Physiotherapy Recovery Program', desc: 'Structured rehabilitation to restore movement.' },
-  { icon: Hourglass, title: 'Long-Term Patient Care', desc: 'Continuous, dependable care for extended needs.' },
-  { icon: Home, title: 'Home Healthcare Support', desc: 'Clinical-grade care delivered to your doorstep.' },
-  { icon: Handshake, title: 'Assisted Recovery Services', desc: 'Hands-on assistance through every recovery milestone.' },
+  { icon: FlaskConical, title: 'Phase I Early-Stage Trials', desc: 'First-in-human studies with precision safety monitoring and compliance.' },
+  { icon: BarChart2, title: 'Phase II Efficacy Studies', desc: 'Structured patient cohort management to evaluate treatment efficacy.' },
+  { icon: Activity, title: 'Phase III Pivotal Trials', desc: 'Large-scale, multi-site trial coordination for regulatory submissions.' },
+  { icon: Users, title: 'Patient Recruitment Program', desc: 'Diverse, ethical patient sourcing across 50+ cities in India.' },
+  { icon: HeartHandshake, title: 'Patient Retention Program', desc: 'Engagement-driven strategies that keep participants committed throughout trials.' },
+  { icon: Stethoscope, title: 'Oncology Trial Support', desc: 'Specialized clinical and operational support for cancer clinical studies.' },
+  { icon: BookOpen, title: 'Patient Education Initiative', desc: 'Empowering patients with knowledge to improve consent quality and adherence.' },
+  { icon: ShieldCheck, title: 'Regulatory & Compliance Program', desc: 'End-to-end compliance management meeting global regulatory standards.' },
 ]
 
 export default function CarePrograms() {
@@ -27,9 +27,9 @@ export default function CarePrograms() {
     <section id="programs" className="section-pad bg-white relative">
       <div className="container-xl">
         <SectionHeading
-          eyebrow="Structured Care"
-          title={<>Programs built around <span className="gradient-text">life moments.</span></>}
-          subtitle="Targeted programs that adapt to specific health journeys — from recovery to long-term wellbeing."
+          eyebrow="Trial Programs"
+          title={<>Programs built for every <span className="gradient-text">phase of research.</span></>}
+          subtitle="Targeted clinical programs designed to adapt to each phase and therapeutic area — from early-stage trials to patient retention and regulatory compliance."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">

@@ -13,10 +13,10 @@ const FOOTER_COLUMNS = [
   {
     title: 'Services',
     links: [
-      { label: 'Home Nursing Care', href: '#services' },
-      { label: 'Elderly Care', href: '#services' },
-      { label: 'Physiotherapy At Home', href: '#services' },
-      { label: 'Medical Attendant Services', href: '#services' },
+      { label: 'Early Phase Solutions', href: '#services' },
+      { label: 'Clinical Development', href: '#services' },
+      { label: 'Patient Recruitment & Retention', href: '#services' },
+      { label: 'Site Management', href: '#services' },
     ],
   },
   {
@@ -32,8 +32,9 @@ const FOOTER_COLUMNS = [
     title: 'Contact',
     links: [
       { label: '+91 80501 07353', href: 'tel:+918050107353' },
-      { label: 'care@curamedservices.in', href: 'mailto:care@curamedservices.in' },
-      { label: 'Belgaum, Karnataka', href: '#contact' },
+      { label: '+91 75073 05050', href: 'tel:+917507305050' },
+      { label: 'curamedservices.india@gmail.com', href: 'mailto:curamedservices.india@gmail.com' },
+      { label: 'Near Eagle English Medium Shool, Uchgaon, Kolhapur, Maharashtra, India', href: '#contact' },
     ],
   },
 ]
@@ -59,8 +60,8 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-10 pb-12 border-b border-white/10">
           <div className="lg:col-span-2">
             <a href="#home" onClick={(e) => handleClick(e, '#home')} className="flex items-center gap-2.5">
-              <img src="/logo_footer.png" alt="Curamed India logo" className="h-14 w-14 object-contain" />
-              <span className="font-display font-bold text-white text-lg">Curamed</span>
+              <img src="/logo_footer.png" alt="Curamed Services India logo" className="h-14 w-14 object-contain" />
+              <span className="font-display font-bold text-white text-lg">Curamed Services India</span>
             </a>
             <p className="mt-4 text-sm leading-relaxed max-w-xs">
               Advanced healthcare. Delivered with compassion. Trusted home healthcare across 50+ cities in India.

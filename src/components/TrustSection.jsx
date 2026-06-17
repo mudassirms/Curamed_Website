@@ -1,12 +1,12 @@
-import { BadgeCheck, HeartHandshake, Clock4, ShieldCheck, Network } from 'lucide-react'
+import { BadgeCheck, ShieldCheck, Clock4, Network, Award } from 'lucide-react'
 import Reveal from './ui/Reveal.jsx'
 
 const TRUST_ITEMS = [
-  { icon: BadgeCheck, title: 'Certified Professionals', desc: 'Background-verified nurses & caregivers.' },
-  { icon: HeartHandshake, title: 'Trusted Healthcare Support', desc: 'Thousands of families rely on us daily.' },
-  { icon: Clock4, title: '24/7 Assistance', desc: 'Help is always one call away.' },
-  { icon: ShieldCheck, title: 'Quality Care Standards', desc: 'Protocols built on clinical best practice.' },
-  { icon: Network, title: 'Reliable Service Network', desc: 'Coordinated care across 50+ cities.' },
+  { icon: BadgeCheck, title: 'Qualified Clinical Liaisons', desc: 'PharmD & medically qualified professionals managing every trial.' },
+  { icon: ShieldCheck, title: 'Regulatory Compliant', desc: 'Processes built to global ICH-GCP and Indian regulatory standards.' },
+  { icon: Clock4, title: '85% On-Time Delivery', desc: 'Consistent on-time study start and completion across sites.' },
+  
+  { icon: Network, title: 'Pan-India Site Network', desc: 'Coordinated clinical operations spanning 50+ cities.' },
 ]
 
 export default function TrustSection() {
@@ -14,7 +14,7 @@ export default function TrustSection() {
     <section className="relative py-16 md:py-20">
       <div className="container-xl">
         <Reveal>
-          <div className="glass-light rounded-3xl p-6 sm:p-8 grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="glass-light rounded-3xl p-6 sm:p-8 grid grid-cols-2 md:grid-cols-4 gap-4">
             {TRUST_ITEMS.map((item, i) => (
               <Reveal key={item.title} delay={i * 0.06} className="h-full">
                 <div className="group flex flex-col items-center text-center gap-3 h-full p-4 rounded-2xl transition-colors duration-300 hover:bg-white/70">

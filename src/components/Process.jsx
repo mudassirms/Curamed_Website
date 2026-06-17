@@ -2,10 +2,10 @@ import Reveal from './ui/Reveal.jsx'
 import SectionHeading from './ui/SectionHeading.jsx'
 
 const STEPS = [
-  { num: '01', title: 'Choose Service', desc: 'Browse and select the care your family needs.' },
-  { num: '02', title: 'Speak With Expert', desc: 'A care advisor understands your requirements.' },
-  { num: '03', title: 'Care Plan Assessment', desc: 'We design a personalized plan around you.' },
-  { num: '04', title: 'Receive Professional Care', desc: 'A verified professional begins your care journey.' },
+  { num: '01', title: 'Discuss Your Trial', desc: 'Reach out and share your clinical trial goals and therapeutic area.' },
+  { num: '02', title: 'Feasibility Assessment', desc: 'Our team evaluates site readiness, patient population, and compliance requirements.' },
+  { num: '03', title: 'Customised Trial Plan', desc: 'We design a tailored site management and recruitment strategy around your protocol.' },
+  { num: '04', title: 'Trial Execution & Reporting', desc: 'Our clinical liaisons and coordinators manage execution with real-time visibility.' },
 ]
 
 export default function Process() {
@@ -14,8 +14,8 @@ export default function Process() {
       <div className="container-xl">
         <SectionHeading
           eyebrow="How It Works"
-          title={<>Healthcare In <span className="gradient-text">Four Simple Steps</span></>}
-          subtitle="From the first call to ongoing care, we make the process simple and transparent."
+          title={<>From Protocol To Patient In <span className="gradient-text">Four Steps</span></>}
+          subtitle="From the first conversation to trial completion, we make clinical research operations simple, transparent, and efficient."
         />
 
         <div className="mt-16 relative">

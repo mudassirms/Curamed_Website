@@ -44,9 +44,9 @@ export default function Header() {
           onClick={(e) => { e.preventDefault(); handleNavClick('#home') }}
           className="flex items-center gap-2 shrink-0"
         >
-          <img src="/logo.png" alt="Curamed India logo" className="h-14 w-14 sm:h-16 sm:w-16 object-contain" />
+          <img src="/logo.png" alt="Curamed Services India logo" className="h-14 w-14 sm:h-16 sm:w-16 object-contain" />
           <span className="font-display font-bold text-lg tracking-tight text-dark-900">
-            Curamed<span className="gradient-text"> India</span>
+            Curamed Services <span className="gradient-text">India</span>
           </span>
         </a>
 
@@ -68,7 +68,7 @@ export default function Header() {
             onClick={() => handleNavClick('#contact')}
             className="px-5 py-2.5 rounded-full bg-gradient-brand text-white text-sm font-semibold shadow-glow hover:scale-[1.03] transition-transform"
           >
-            Book Care Now
+            Partner With Us
           </button>
         </div>
 
@@ -105,7 +105,7 @@ export default function Header() {
                 onClick={() => handleNavClick('#contact')}
                 className="mt-2 text-center px-5 py-3 rounded-full bg-gradient-brand text-white text-sm font-semibold"
               >
-                Book Care Now
+                Partner With Us
               </button>
             </div>
           </motion.div>

@@ -6,8 +6,8 @@ import SectionHeading from './ui/SectionHeading.jsx'
 
 const CONTACT_INFO = [
   { icon: Phone, label: 'Phone', value: '+91 80501 07353' },
-  { icon: Mail, label: 'Email', value: 'care@curamedservices.in' },
-  { icon: MapPin, label: 'Office Address', value: '4th Floor, Prestige Solitaire, Brigade Road, Belgaum, Karnataka 560001' },
+  { icon: Mail, label: 'Email', value: 'curamedservices.india@gmail.com' },
+  { icon: MapPin, label: 'Office Address', value: 'Near Eagle English Medium Shool, Uchgaon, Kolhapur, Maharashtra, India' },
   { icon: Clock4, label: 'Support Hours', value: '24/7 Emergency Assistance Available' },
 ]
 

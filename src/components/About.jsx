@@ -3,11 +3,25 @@ import Reveal from './ui/Reveal.jsx'
 import SectionHeading from './ui/SectionHeading.jsx'
 
 const CORE_VALUES = [
-  { icon: Heart, label: 'Compassion' },
+  { icon: Heart, label: 'Patient-Centric' },
   { icon: ShieldCheck, label: 'Integrity' },
-  { icon: Sparkles, label: 'Trust' },
+  { icon: Sparkles, label: 'Innovation' },
   { icon: Award, label: 'Excellence' },
   { icon: Briefcase, label: 'Professionalism' },
+]
+
+// CSI India leadership team
+const LEADERSHIP = [
+  {
+    name: 'Mohammad Gazali Ismailmagdum',
+    role: 'Co-Founder & Manager',
+    focus: 'Specialises in Clinical Operations, clinical trials, and patient-centric solutions with over four years of experience in clinical research.',
+  },
+  {
+    name: 'Sandesh Mane',
+    role: 'Co-Founder & Manager, Clinical Operations',
+    focus: 'Bridges the gap between Sponsors/CROs and sites, over 6 years of experience in clinical research, fostering collaborations with medical professionals across India.',
+  },
 ]
 
 export default function About() {
@@ -15,9 +29,9 @@ export default function About() {
     <section id="about" className="section-pad bg-surface-soft relative">
       <div className="container-xl">
         <SectionHeading
-          eyebrow="About Curamed"
-          title={<>Compassion-Driven <span className="gradient-text">Healthcare Excellence</span></>}
-          subtitle="Curamed Services India is committed to providing trusted healthcare support through compassionate service, professional expertise, and patient-focused care solutions."
+          eyebrow="About Curamed Services India"
+          title={<>Shifting the Clinical Research <span className="gradient-text">Paradigm</span></>}
+          subtitle="Destination Pharmagens Healthcare Solutions (CSI) is a leading Site Management Organization bridging the gap between healthcare providers, pharmaceutical companies, and patients across India — established July 2023."
         />
 
         <div className="mt-14 grid md:grid-cols-2 gap-5">
@@ -27,7 +41,7 @@ export default function About() {
                 Our Mission
               </div>
               <p className="mt-4 text-xl font-display font-semibold text-dark-900 leading-snug">
-                To make quality healthcare support accessible and reliable for every family.
+                To redefine clinical research by combining research expertise, data insights, and patient perspectives — delivering breakthrough treatment options across India.
               </p>
             </div>
           </Reveal>
@@ -38,12 +52,28 @@ export default function About() {
                 Our Vision
               </div>
               <p className="mt-4 text-xl font-display font-semibold text-dark-900 leading-snug">
-                To become India's most trusted healthcare support services brand.
+                To become India's most trusted and innovative Site Management Organization, solving complex clinical development challenges with efficiency, compliance, and quality.
               </p>
             </div>
           </Reveal>
         </div>
 
+        {/* Leadership */}
+        <div className="mt-8 grid md:grid-cols-2 gap-5">
+          {LEADERSHIP.map((leader, i) => (
+            <Reveal key={leader.name} delay={i * 0.08}>
+              <div className="glass-light rounded-3xl p-7 h-full">
+                <div className="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold mb-3">
+                  {leader.role}
+                </div>
+                <h3 className="font-display font-bold text-dark-900 text-lg">{leader.name}</h3>
+                <p className="mt-2 text-sm text-slate-500 leading-relaxed">{leader.focus}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+
+        {/* Core Values */}
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-5 gap-4">
           {CORE_VALUES.map((value, i) => (
             <Reveal key={value.label} delay={i * 0.05}>

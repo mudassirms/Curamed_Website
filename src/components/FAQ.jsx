@@ -6,28 +6,36 @@ import SectionHeading from './ui/SectionHeading.jsx'
 
 const FAQS = [
   {
-    q: 'What services do you provide?',
-    a: 'We provide home nursing, patient care, elderly care, physiotherapy, medical attendants, home diagnostic support, and doctor consultation assistance — all delivered at home.',
+    q: 'What is Curamed Services India and what does it do?',
+    a: 'Curamed Services India is a leading Site Management Organization (SMO) established in July 2023. We bridge the gap between pharmaceutical companies, CROs, healthcare providers, and patients to deliver efficient, compliant, and patient-centric clinical trial solutions across India.',
   },
   {
-    q: 'How do I request support?',
-    a: 'Simply reach out through our contact form or call our support line, and a care advisor will guide you through the next steps.',
+    q: 'What clinical research services does Curamed Services India offer?',
+    a: 'We offer a comprehensive range of services including Early Phase Solutions, Clinical Development support, Patient Recruitment & Retention, Site Management, Clinical Trial Liaison services (PharmD & medically qualified), Sponsor & CRO partnerships, and Patient Education programs.',
   },
   {
-    q: 'Are healthcare professionals verified?',
-    a: 'Yes. Every nurse, caregiver, and attendant in our network is background-verified and trained before being matched with a family.',
+    q: 'How do I partner with Curamed Services India for a clinical trial?',
+    a: 'Reach out through our contact form or email us directly. Our team will conduct a feasibility assessment, understand your protocol requirements, and design a customised site management and recruitment plan tailored to your trial.',
   },
   {
-    q: 'Which locations do you serve?',
-    a: 'We currently support families across 50+ cities in India, with our care network expanding continuously.',
+    q: 'Which cities and sites does Curamed Services India operate in?',
+    a: 'We currently operate across 50+ cities in India, with a continuously expanding network of investigative sites and healthcare professionals to support diverse patient recruitment and trial execution needs.',
   },
   {
-    q: 'What care programs are available?',
-    a: 'From post-surgery recovery to long-term patient care, mother & baby care, and chronic disease support — we offer structured programs for every stage of care.',
+    q: 'What is Curamed Services India\'s track record on trial timelines?',
+    a: 'We maintain an 85% on-time study start and completion rate across our trials — a benchmark we achieve through rigorous planning, proactive site management, and experienced clinical liaisons.',
   },
   {
-    q: 'How do I contact your team?',
-    a: 'You can reach us by phone, email, or the contact form below. Our team typically responds within a few hours.',
+    q: 'Has Curamed Services India received any industry recognition?',
+    a: 'Yes. Curamed Services India was recognised among the "10 Most Promising Drug Discovery & Development Companies 2023" by Silicon India magazine, and has been featured in leading publications including The Times of India, Economic Times Health World, Express Pharma, and First Post.',
+  },
+  {
+    q: 'How does Curamed Services India approach patient recruitment?',
+    a: 'We take a patient-centric approach — focusing on patient education, diverse and inclusive trial populations, and strong engagement strategies that drive both enrolment and long-term retention throughout the study.',
+  },
+  {
+    q: 'How can I get in touch with the Curamed Services India team?',
+    a: 'You can contact us through the form below or reach out via email. Our team typically responds within a few business hours and will connect you with the right clinical operations expert for your needs.',
   },
 ]
 
@@ -40,7 +48,7 @@ export default function FAQ() {
         <SectionHeading
           eyebrow="Got Questions?"
           title="Frequently Asked Questions"
-          subtitle="Everything you need to know before getting started with Curamed."
+          subtitle="Everything you need to know before partnering with Curamed Services India for your clinical trial."
         />
 
         <div className="max-w-2xl mx-auto space-y-4">

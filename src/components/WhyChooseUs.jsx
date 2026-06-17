@@ -4,14 +4,14 @@ import SectionHeading from './ui/SectionHeading.jsx'
 import img from '/why-choose.jpg'
 
 const BENEFITS = [
-  'Experienced Healthcare Professionals',
-  'Personalized Care Plans',
-  'Compassionate Service Approach',
-  'Quality Healthcare Standards',
-  'Fast Response Time',
-  'Transparent Service Process',
-  'Trusted Patient Support',
-  'Nationwide Reach',
+  'Experienced Clinical Research Professionals',
+  'Integrated Site Management Operations',
+  'Patient-Centric Trial Design',
+  'Global Regulatory Compliance',
+  'Fast Site Start-Up Times',
+  'Transparent Trial Reporting',
+  'Trusted Sponsor & CRO Partnerships',
+  'Pan-India Site Network',
 ]
 
 export default function WhyChooseUs() {
@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
             <div className="relative rounded-[2rem] overflow-hidden glass-light p-2">
               <img
                 src={img}
-                alt="Physiotherapist helping elderly patient"
+                alt="Curamed Services India clinical research operations"
                 width={1280}
                 height={1280}
                 loading="lazy"
@@ -37,9 +37,9 @@ export default function WhyChooseUs() {
         <div>
           <SectionHeading
             align="left"
-            eyebrow="Why Curamed"
-            title={<>Compassionate Care, <span className="gradient-text">Engineered For Trust</span></>}
-            subtitle="We pair professional expertise with a human touch — so families feel supported every step of the way."
+            eyebrow="Why Curamed Services India"
+            title={<>Research Expertise, <span className="gradient-text">Built On Trust</span></>}
+            subtitle="We combine clinical know-how with data-driven strategies and a patient-first philosophy — so sponsors and CROs get the results they need, and patients receive the care they deserve."
           />
 
           <div className="mt-8 grid sm:grid-cols-2 gap-3">

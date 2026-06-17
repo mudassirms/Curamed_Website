@@ -3,11 +3,11 @@ import Reveal from './ui/Reveal.jsx'
 import SectionHeading from './ui/SectionHeading.jsx'
 
 const ROLES = [
-  { title: 'Nurses', desc: 'Deliver compassionate clinical care at home.' },
-  { title: 'Physiotherapists', desc: 'Help patients recover with expert guidance.' },
-  { title: 'Caregivers', desc: 'Support patients with daily living and dignity.' },
-  { title: 'Healthcare Coordinators', desc: 'Coordinate care plans and family communication.' },
-  { title: 'Support Staff', desc: 'Power the operations behind exceptional care.' },
+  { title: 'Clinical Research Coordinators', desc: 'Manage day-to-day trial operations and ensure protocol compliance at sites.' },
+  { title: 'Clinical Trial Liaisons (PharmD)', desc: 'Bridge sponsors and sites with expert pharmaceutical knowledge and support.' },
+  { title: 'Patient Recruitment Specialists', desc: 'Identify and engage eligible patients to build diverse, high-quality trial cohorts.' },
+  { title: 'Regulatory Affairs Associates', desc: 'Navigate Indian and international compliance requirements for smooth submissions.' },
+  { title: 'Data Management Analysts', desc: 'Ensure trial data integrity through meticulous entry, monitoring, and reporting.' },
 ]
 
 export default function Careers() {
@@ -15,9 +15,9 @@ export default function Careers() {
     <section id="careers" className="section-pad bg-surface-soft relative">
       <div className="container-xl">
         <SectionHeading
-          eyebrow="Careers At Curamed"
-          title={<>Build a career in<span className="gradient-text">Healthcare That Matters</span></>}
-          subtitle="Join a growing network of healthcare professionals delivering compassionate, high-quality care across India."
+          eyebrow="Careers At Curamed Services India"
+          title={<>Build a career in <span className="gradient-text">Clinical Research That Matters</span></>}
+          subtitle="Join a growing network of clinical research professionals driving innovation in healthcare across India."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -32,7 +32,7 @@ export default function Careers() {
                 </h3>
                 <p className="mt-2 text-sm text-slate-500 leading-relaxed">{role.desc}</p>
                 <a
-                  href="mailto:careers@curamedservices.in"
+                  href="mailto:curamedservices.india@gmail.com?subject=Career%20Opportunity%20Inquiry"
                   className="mt-5 inline-flex items-center gap-2 text-sm font-semibold gradient-text"
                 >
                   Apply
