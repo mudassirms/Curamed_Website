@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react'
+import { Linkedin, } from 'lucide-react'
 
 const FOOTER_COLUMNS = [
   {
@@ -32,7 +32,7 @@ const FOOTER_COLUMNS = [
     title: 'Contact',
     links: [
       { label: '+91 80501 07353', href: 'tel:+918050107353' },
-      { label: '+91 75073 05050', href: 'tel:+917507305050' },
+      { label: '+91 75073 15050', href: 'tel:+917507315050' },
       { label: 'curamedservices.india@gmail.com', href: 'mailto:curamedservices.india@gmail.com' },
       { label: 'Near Eagle English Medium Shool, Uchgaon, Kolhapur, Maharashtra, India', href: '#contact' },
     ],
@@ -40,10 +40,7 @@ const FOOTER_COLUMNS = [
 ]
 
 const SOCIALS = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Youtube, href: '#', label: 'YouTube' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/curamed-curamedservices-india-790360347?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
 ]
 
 function handleClick(e, href) {

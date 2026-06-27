@@ -12,15 +12,15 @@ const CONTACT_INFO = [
 ]
 
 const SERVICE_OPTIONS = [
-  'Home Nursing Care',
-  'Patient Care Services',
-  'Elderly Care',
-  'Physiotherapy At Home',
-  'Medical Attendant Services',
-  'Home Diagnostic Support',
-  'Doctor Consultation Support',
-  'Medical Equipment Assistance',
-  'Other',
+  'Clinical Research Coordinator',
+  'Clinical Operations',
+  'Project Coordinator',
+  'Site Manager',
+  'Sponser',
+  'CRO',
+  'Patients Coordinator',
+  'Intern Clinical Research Coordinator',
+  'Other Site Management Organization',
 ]
 
 const initialForm = { name: '', phone: '', email: '', service: '', message: '' }
@@ -34,11 +34,26 @@ export default function Contact() {
   }
 
   const handleSubmit = (e) => {
-    // UI-only demo: this marketing site is static and has no backend.
-    // Connect this handler to your form/email service of choice to receive leads.
-    e.preventDefault()
-    setSubmitted(true)
-  }
+  e.preventDefault()
+
+  const message = `
+*New Contact Request - Curamed Services*
+
+*Name:* ${form.name}
+*Phone:* ${form.phone}
+*Email:* ${form.email}
+*Service:* ${form.service}
+
+*Message:*
+${form.message}
+  `.trim()
+
+  const phone = '918050107353' // ← your number with country code, no + or spaces
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
+
+  window.open(url, '_blank')
+  setSubmitted(true)
+}
 
   return (
     <section id="contact" className="section-pad bg-surface-soft relative">
